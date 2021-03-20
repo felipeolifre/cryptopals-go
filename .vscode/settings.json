@@ -1,0 +1,12 @@
+{
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": true,
+    "editor.rulers": [80, 100],
+
+    "files.exclude": {
+        "**/**/*.test": true, // Test binary, built with `go test -c`
+        "**/**/*.out": true,  // Output of the go coverage tool, specifically when used with LiteIDE
+        "**/.DS_Store": true,
+        "**/.git": true,
+    },
+}
